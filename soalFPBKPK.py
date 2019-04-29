@@ -70,4 +70,6 @@ elif angka1<angka2:
             if angka2*i>angka1*j:
                 i=1
                 j+=1
+elif angka1==angka2:
+    kelipatan.append(angka1)
 print('KPK-nya=',kelipatan[0])
